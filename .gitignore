@@ -1,0 +1,4 @@
+client/node_modules
+server/src/main/resources/static
+server/target
+

@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "axios": "^1.7.2",
+    "bootstrap-icons-vue": "^1.11.3",
+    "open-props": "^1.7.5",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0",
+    "vue2-google-maps": "^0.10.7",
+    "vue3-geolocation": "^1.0.0",
+    "vuetify": "^3.6.13",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}

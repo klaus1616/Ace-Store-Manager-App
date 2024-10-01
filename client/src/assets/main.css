@@ -1,0 +1,89 @@
+@import "open-props/style";
+
+body {
+  font-family: var(--font-neo-grotesque);
+  font-size: var(--font-size-3);
+  margin: 0;
+  padding: 0;
+  background-color: var(--gray-0);
+  color: var(--gray-12)
+}
+
+button {
+  font-size: var(--font-size-3);
+  padding: var(--size-2);
+  border: none;
+  background-color: var(--red-8);
+  color: var(--gray-0);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+
+  &:hover {
+    background-color: var(--red-10);
+  }
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#app>header>nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: var(--red-8);
+  padding: var(--size-2) var(--size-3);
+  color: var(--gray-0);
+}
+
+#app>header>nav a {
+  color: var(--indigo-1);
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#app>header>nav>menu {
+  display: flex;
+  gap: var(--size-3);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#app>main {
+  flex-grow: 1;
+  padding: var(--size-2) var(--size-3);
+}
+
+#app>footer {
+  padding-inline: var(--size-2);
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: var(--gradient-16);
+  padding: 10px;
+}
+
+@media (max-width: 425px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  menu li {
+    display: block;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
