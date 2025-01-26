@@ -63,7 +63,7 @@ export function createAppRouter() {
     });
 
     router.beforeEach((to, from, next) => {
-        if (to.meta.requireAuth === false) {
+        if (to.meta.requireAuth === fasle) {
             next();
         } else if (to.meta.requireAuth  && store.state.token === null) {
             next('/login');
