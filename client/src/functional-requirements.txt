@@ -1,0 +1,15 @@
+- As an unAuthorized use:
+    * One can view home page.
+    * One can view Vendor page with a  list of all the Vendors.
+
+- As a logged in authorized user:
+    * One can vie the home page.
+    * View the Vendor page with a list of all the Vendors.
+    * View the Employee portal page with all employees without their hourly wage.
+
+- User logged in as an Admin is allowed :
+    * One can view home page.
+    * One can view Vendor page with a  list of all the Vendors.
+    * View the Employee portal page with all employees and their hourly wage.
+    * Add, update and delete any Vendor.
+    * Add, update and delete any Employees.  
