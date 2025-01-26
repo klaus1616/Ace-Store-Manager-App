@@ -1,4 +1,4 @@
-- As an unAuthorized use:
+- As an unauthorized use:
     * One can view home page.
     * One can view Vendor page with a  list of all the Vendors.
 
